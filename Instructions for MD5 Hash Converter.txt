@@ -1,2 +1,0 @@
-The code might not work because you might not have python hashlib,
-to install hashlib, in the cmd type pip install hashlib.
