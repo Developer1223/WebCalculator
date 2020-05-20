@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Caculator</title>
+</head>
+<body>
+<script>
+function add()
+{
+add1 = prompt("Enter addend 1");
+add2 = prompt("Enter addend 2");
+sum = parseInt(add1) + parseInt(add2)
+alert(sum);
+}
+
+function subtract()
+{
+sub1 = prompt("Enter a number");
+sub2 = prompt("Enter a number");
+diffrence = parseInt(sub1) - parseInt(sub2)
+alert(diffrence);
+}
+
+function multiply()
+{
+mul1 = prompt("Enter a number");
+mul2 = prompt("Enter a number");
+sum = parseInt(mul1) * parseInt(mul2)
+alert(sum);
+}
+
+function divide()
+{
+div1 = prompt("Enter a number");
+div2 = prompt("Enter a number");
+diffrence = parseInt(div1) / parseInt(div2)
+alert(diffrence);
+}
+</script>
+<button type="button" onclick="add()">Click for Addition</button>
+<button type="button" onclick="subtract()">Click for Subtraction</button>
+<button type="button" onclick="multiply()">Click for Multiplication</button>
+<button type="button" onclick="divide()">Click for Division</button>
+</body>
+</html>
