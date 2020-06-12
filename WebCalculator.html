@@ -1,6 +1,55 @@
 <html>
 <head>
-<title>Caculator</title>
+<title>Caculator By Samarth Sharma</title>
+<style>
+    button1 {
+        position: absolute;
+        left: 50px;
+        top: 50px;
+        border: 2px solid chartreuse;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button2 {
+        position: absolute;
+        left: 50px;
+        top: 200px;
+        border: 2px solid chartreuse;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button3 {
+        position: absolute;
+        left: 50px;
+        top: 350px;
+        border: 2px solid chartreuse;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button4 {
+        position: absolute;
+        left: 50px;
+        top: 500px;
+        border: 2px solid chartreuse;
+        background-color: white;
+        color: black;
+        padding: 14px 28px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
 </head>
 <body>
 <script>
@@ -9,36 +58,36 @@ function add()
 add1 = prompt("Enter addend 1");
 add2 = prompt("Enter addend 2");
 sum = parseInt(add1) + parseInt(add2)
-alert(sum);
+alert("Sum of two numbers is: " + sum);
 }
 
 function subtract()
 {
-sub1 = prompt("Enter a number");
-sub2 = prompt("Enter a number");
+sub1 = prompt("Enter first number");
+sub2 = prompt("Enter second number");
 diffrence = parseInt(sub1) - parseInt(sub2)
-alert(diffrence);
+alert("Difference of two numbers is: " + diffrence);
 }
 
 function multiply()
 {
-mul1 = prompt("Enter a number");
-mul2 = prompt("Enter a number");
-sum = parseInt(mul1) * parseInt(mul2)
-alert(sum);
+mul1 = prompt("Enter first number");
+mul2 = prompt("Enter second number");
+mult = parseInt(mul1) * parseInt(mul2)
+alert("Multiplication of two numbers is: " + mult);
 }
 
 function divide()
 {
-div1 = prompt("Enter a number");
-div2 = prompt("Enter a number");
-diffrence = parseInt(div1) / parseInt(div2)
-alert(diffrence);
+div1 = prompt("Enter first number");
+div2 = prompt("Enter second number");
+div = parseInt(div1) / parseInt(div2)
+alert("Divisor of two numbers is: " + div);
 }
 </script>
-<button type="button" onclick="add()">Click for Addition</button>
-<button type="button" onclick="subtract()">Click for Subtraction</button>
-<button type="button" onclick="multiply()">Click for Multiplication</button>
-<button type="button" onclick="divide()">Click for Division</button>
+<button1 type="button" onclick="add()">Click for Addition</button1>
+<button2 type="button" onclick="subtract()">Click for Subtraction</button2>
+<button3 type="button" onclick="multiply()">Click for Multiplication</button3>
+<button4 type="button" onclick="divide()">Click for Division</button4>
 </body>
 </html>
